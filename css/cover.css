@@ -117,6 +117,13 @@ body {
   font-weight: bold;
 }
 
+  /* Video */
+#webcam {
+  display: block;
+  width: 720px;
+  height: 480px;
+   }
+
 
 /*
  * Footer
@@ -142,6 +149,8 @@ body {
     position: fixed;
     bottom: 0;
   }
+
+
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
