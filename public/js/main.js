@@ -1,4 +1,6 @@
 var $burf = $("#burf");
+var $burfmp3 = $("#burfmp3");
+
 
 var socket = io();
 
@@ -10,6 +12,7 @@ function burf(){
 };
 
 function playAlarm(){
+	document.getElementById("alarmp3").play();
 	socket.emit('play alarm');
 
 };
