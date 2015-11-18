@@ -16,3 +16,7 @@ function playAlarm(){
 	socket.emit('play alarm');
 
 };
+
+function giveTreat(){
+	socket.emit('treat');
+};
